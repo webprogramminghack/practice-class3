@@ -1,0 +1,55 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.static-box {
+  position: static;
+  background-color: lightblue;
+}
+
+.relative-box {
+  position: relative;
+  /* top, right, bottom, left */
+  top: 20px;
+  left: 30px;
+  /* margin-top: 20px;
+  margin-left: 20px; */
+  background-color: lightgreen;
+}
+
+.normal-box {
+  background: red;
+}
+
+.parent {
+  position: relative;
+  background: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.absolute-box {
+  background: orange;
+  position: absolute;
+  right: 0;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: lightpink;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.extra-scrolling {
+  height: 2000px;
+}

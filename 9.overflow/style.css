@@ -1,0 +1,75 @@
+.visible-box {
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  background-color: lightyellow;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.visible-box .inner-box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  opacity: 0.8;
+}
+
+.hidden-box {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  background-color: lightblue;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.hidden-box .inner-box {
+  width: 300px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scroll-box {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: lightgreen;
+  border: 1px solid #000;
+}
+
+.scroll-box .inner-box {
+  width: 300px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overflow-x-box {
+  width: 200px;
+  height: 100px;
+  overflow-x: scroll;
+  background-color: lightcoral;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.overflow-x-box .inner-box {
+  width: 300px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overflow-scroll-vs-auto {
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  background-color: lightyellow;
+  border: 1px solid #000;
+  padding: 10px;
+  overflow: auto;
+}
+
+.overflow-scroll-vs-auto .inner-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+}

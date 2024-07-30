@@ -1,0 +1,49 @@
+.box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  z-index: 20;
+}
+
+.box2 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  z-index: 10;
+}
+
+.box3 {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+  z-index: 15;
+}
+
+.scope .box4 {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  z-index: 100;
+}
+
+.scope .box5 {
+  position: absolute;
+  top: 110px;
+  left: 110px;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  z-index: 99;
+}

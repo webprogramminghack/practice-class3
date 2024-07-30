@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box-all-rounded {
+  background: lightblue;
+  border-radius: 50px;
+}
+
+.box-different-corners {
+  background-color: lightgreen;
+  /* kiri atas, kanan atas, kanan bawah, kiri bawah */
+  border-radius: 10px 20px 30px 40px;
+}
+
+.box-circle {
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+
+.box-ellipse {
+  width: 200px;
+  height: 100px;
+  background-color: lightsalmon;
+  border-radius: 50%;
+}
